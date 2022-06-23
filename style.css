@@ -1,0 +1,353 @@
+.bisiklet { 
+    width: 543px; 
+    height: 310px;
+    margin-left: 60px;
+    transition: all 10s ease;
+    transform: translate(150px);
+    -webkit-transform: translate(150px);
+  }
+
+  .bisiklet:hover { 
+    transform: translate(150px);
+    -webkit-transform: translate(150px);
+  }
+
+  .teker{
+      width: 200px; 
+    height: 200px; 
+      border: 3px solid black; 
+      background-color: transparent; 
+      border-radius: 180px; 
+      position: absolute;
+      -webkit-animation:spin 3s linear infinite;
+     -moz-animation:spin 3s linear infinite;
+     animation:spin 3s linear infinite;
+     overflow: hidden;
+  }
+  .jant { width: 198px; 
+    height: 1px; 
+    border: 1px dotted #C2B7B7; 
+    border-radius: 0px;
+    position: absolute;
+    margin:100px 0 0 0px; 
+    z-index: 3;}
+  .lastikic { 
+    width: 190px; 
+    height: 190px;  
+    position: absolute; 
+    border: 5px solid rgb(218, 226, 124); 
+    border-radius: 1000px; z-index: 4;}
+  
+  
+  .onteker{
+     margin-left: 303px;
+       margin-top: 127px;
+  }
+  .arkateker{
+      margin-top: 125px;	
+      margin-left: -60px;
+  }
+  .borular div{
+      background-color: #3F3B6D !important;
+      position: absolute;
+  }
+  
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  
+  @-webkit-keyframes pedal { 100% { -webkit-transform: rotate(360deg); } }
+  
+  @-webkit-keyframes ayaklik { 100% { -webkit-transform: rotate(-360deg); } }
+  
+  
+  .boru1 { 
+    width: 187px; 
+    height: 10px; 
+    border-radius: 10px; 
+    -webkit-transform: rotate(138deg); 
+    margin: 163px 0 0 190px;
+  }
+  
+  .boru2 { 
+    width: 200px; 
+    height: 9px;  
+    border-radius: 10px; 
+    -webkit-transform: rotate(66deg); 
+    margin: 139px 0px 0px 266px;
+  }
+  
+  .boru3 { 
+    width: 199px; 
+    height: 10px; 
+    border-radius: 10px; 
+    -webkit-transform: rotate(56deg); 
+    margin: 145px 0 0 66px;
+  }
+  .boru4 { 
+    width: 209px; 
+    height: 10px; 
+    border-radius: 10px; 
+    -webkit-transform: rotate(-5deg); 
+    margin: 97px 0 0 139px;
+  }
+  .boru5 { 
+    width: 
+    190px; 
+    height:10px; 
+    border-radius: 10px; 
+    rotate(1deg);
+    margin: 226px 0 0 32px;
+  }
+  .boru6 { 
+    width: 162px; 
+    height: 10px; 
+    border-radius: 10px; 
+    -webkit-transform: rotate(-49deg); 
+    margin: 170px 0 0 6px;
+  }
+  
+  .koltuk { 
+    margin: 
+    13px 0 0 17px; 
+    position: absolute;
+  }
+  .k1 { 
+    margin: 51px 0 0 74px; 
+    position: absolute;
+    width:52px; 
+    height: 0px; 
+    border: 6px solid rgb(16, 30, 60); 
+    border-radius: 0px; 
+    -webkit-transform: rotate(175deg); 
+    border-bottom-left-radius: 48px; 
+    border-top-right-radius: 49px;
+  }
+  .k2 { 
+    margin: 56px 0 0 78px;
+    position: absolute; 
+    width: 27px; 
+    height: -1px; 
+    border: 7px solid rgb(2, 0, 0); 
+    border-radius: 0px; 
+    -webkit-transform: rotate(171deg); 
+    border-bottom-left-radius: 100px; 
+    border-top-right-radius: 100px;
+  }
+  
+  .driver { 
+    width: 60px; 
+    height: 0px; 
+    border: 5px solid black; 
+    border-radius: 0px; 
+    -webkit-transform: rotate(0deg); 
+    margin: 47px 0 0 320px;
+    position: absolute; 
+    border-bottom-left-radius: 100px; 
+    border-top-left-radius: 100px;
+  }
+  .ondriver { 
+    width: 50px; 
+    height: 36px; 
+    position: absolute; 
+    margin-left: 65px; 
+    margin-top: -5px; 
+    border: 10px solid rgb(50, 43, 99); 
+    border-radius: 10px; 
+    margin: -5px 0 0 23px; 
+    border-left: 7px solid transparent; 
+    border-bottom-right-radius: 33px; 
+    border-bottom-left-radius: 45px; 
+    border-top-right-radius: 31px;
+  }
+  
+  .icdis { 
+    width: 10px; 
+    height: 10px; 
+    position: absolute; 
+    background-color: red; 
+    margin: 89px 0 0 88px;
+  } 
+  
+  
+  .pedallar{
+      width: 205px;
+      height: 205px;
+      margin:132px 0 0 116px;
+      position: absolute;
+      -webkit-animation:pedal 4s linear infinite;
+     -moz-animation:pedal 4s linear infinite;
+     animation:pedal 4s linear infinite;
+  
+  }
+  .ondisli{ 
+    width: 80px; 
+    height: 80px; 
+    border: 3px solid black; 
+    background-color: transparent; 
+    float:left; 
+    left: 59px; 
+    top: 60px; 
+    border-radius: 100px; 
+    position: absolute;
+  } 
+  
+  .disli { 
+    width: 20px; 
+    height: 20px; 
+    position: absolute; 
+    border: 4px solid rgb(17, 17, 17); 
+    z-index: 1; 
+    border-radius: 100px; 
+    background-color: rgb(41, 71, 77);
+  }
+  .arkadisli { 
+    background-color: white; 
+    float: left; 
+    border-radius: 30px; 
+    position: absolute; 
+    margin: 214px 0 0 28px;
+  }
+  .pedal { 
+    width: 150px; 
+    height: 3px; 
+    border: 2px solid black; 
+    border-radius: 0px; 
+    -webkit-transform: rotate(145deg); 
+    position: absolute; 
+    top: 101px; 
+    left: 25px;
+  }
+  
+  .ayak{
+      width: 31px;
+      height: 12px;
+      
+      background:black;
+      position: absolute;
+      -webkit-animation:ayaklik 4s linear infinite;
+     -moz-animation:ayaklik 4s linear infinite;
+     animation:ayaklik 4s linear infinite;
+  }
+  .a1{ 
+    top: 146px; 
+    left: 22px;
+  }
+  .a2{
+    top: 57px;
+    left: 149px;
+  }
+  
+  
+  
+  
+  .j1{ -webkit-transform: rotate(0deg);}
+  .j2{ -webkit-transform: rotate(40deg);}
+  .j3{ -webkit-transform: rotate(80deg);}
+  .j4{ -webkit-transform: rotate(120deg);}
+  .j5{ -webkit-transform: rotate(160deg);}
+  .j6{ -webkit-transform: rotate(200deg);}
+  .j7{ -webkit-transform: rotate(240deg);}
+  .j8{ -webkit-transform: rotate(280deg);}
+  .j9{ -webkit-transform: rotate(320deg);}
+  
+  .sukabi { 
+    width: 16px; 
+    height: 25px; 
+    background-color: #daeded; 
+    position: absolute; 
+    margin: 142px 0 0 261px; 
+    -webkit-transform: rotate(47deg); 
+    border: 3px solid #5E999B;
+  }
+  .susisesi { 
+    width: 16px; 
+    height: 33px; 
+    background:#daeded; 
+    position: absolute; 
+    -webkit-transform: rotate(228deg); 
+    border-bottom-right-radius: 100px; 
+    border-bottom-left-radius: 100px; 
+    margin: 129px 0 0 275px; 
+    border-top: 3px solid #5E999B;
+  }
+  .sukapagi { 
+    width: 7px; 
+    height: 4px; 
+    background: black; 
+    position: absolute; 
+    margin: 132px 0 0 293px; 
+    -webkit-transition: rotate(20deg); 
+    -webkit-transform: rotate(49deg);
+  }
+  
+  .zincir { 
+    background-color: black; 
+    position: absolute;
+  }
+  .ustzincir { 
+    width: 181px; 
+    height: 3px; 
+    margin: 204px 0 0 40px; 
+    -webkit-transform: rotate(-8deg);
+  }
+  .altzincir { 
+    width: 181px; 
+    height: 3px; 
+    margin: 255px 0 0 34px; 
+    -webkit-transform: rotate(12deg);
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  #balloon-container {
+    height: 100vh;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  .balloon {
+    height: 125px;
+    width: 105px;
+    border-radius: 75% 75% 70% 70%;
+    position: relative;
+  }
+  
+  .balloon:before {
+    content: "";
+    height: 75px;
+    width: 1px;
+    padding: 1px;
+    background-color: #FDFD96;
+    display: block;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .balloon:after {
+      content: "▲";
+      text-align: center;
+      display: block;
+      position: absolute;
+      color: inherit;
+      top: 120px;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  
+  @keyframes float {
+    from {transform: translateY(100vh);
+    opacity: 1;}
+    to {transform: translateY(-300vh);
+    opacity: 0;}
+  }
+  
+  
+  
